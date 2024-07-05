@@ -1,0 +1,4 @@
+selenium
+behave
+webdriver-manager
+urllib3==1.26.16
