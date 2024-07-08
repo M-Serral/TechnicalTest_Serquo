@@ -35,7 +35,7 @@ def step_given_user_logged_in(context):
     context.login_page.log_in_user(Config.USERNAME, Config.PASSWORD)
 
 
-@when('the user searches for a Samsung galaxy s6"')
+@when('the user searches for a Samsung galaxy s6')
 def step_when_user_searches_product(context):
     context.home_page.click_product()
 
